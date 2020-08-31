@@ -16,7 +16,7 @@ func Init() *aclAuth {
 	}
 	return &aclAuth{
 		config: aclConfig,
-		userman: um
+		userman: um,
 	}
 }
 
