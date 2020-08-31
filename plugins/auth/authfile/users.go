@@ -1,8 +1,8 @@
 package acl
 
 import (
-	"fmt"
-	"log"
+	//"fmt"
+	//"log"
 	"errors"
 	"bufio"
 	"io"
