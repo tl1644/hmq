@@ -21,7 +21,7 @@ func Init() *aclAuth {
 }
 
 func (a *aclAuth) CheckConnect(clientID, username, password string) bool {
-	return userman.CheckCredentials(username,password)
+	return a.userman.CheckCredentials(username,password)
 }
 
 func (a *aclAuth) CheckACL(action, clientID, username, ip, topic string) bool {
